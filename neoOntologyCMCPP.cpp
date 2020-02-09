@@ -89,7 +89,7 @@ pkt1:
 		strcpy(message, "");
 	}
 
-	// Component 1 - Device 1 | Component: 1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_2 | Device: Heli_CMC_Connectivity_Time
+	// Component 1 - Device 1 | Component: 1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_2 | Device: H_Client_Computer_Connectivity_Time
 	ping1 = system("ping -n 2 -w 20 -i 10 -a 192.168.0.2");
 	time(&actual_time);
 	data = localtime(&actual_time);
@@ -125,7 +125,7 @@ pkt1:
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateStatus\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#Faulty\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Status\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateDominion\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#Electrics\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Dominion\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStatePhenomenon\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#ElectricLoss\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Phenomenon\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
-			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#Heli_CMC_Connectivity_Time\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
+			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#H_Client_Computer_Connectivity_Time\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#refersToComponent\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_2\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Component\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"}");
 			strcat(ping2, "]");
 			strcat(ping2, "}");
@@ -172,7 +172,7 @@ pkt1:
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateStatus\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#Faulty\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Status\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateDominion\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#Electrics\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Dominion\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStatePhenomenon\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#ElectricLoss\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Phenomenon\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
-			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#Heli_CMC_Connectivity_Time\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
+			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#H_Client_Computer_Connectivity_Time\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#refersToComponent\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_2\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Component\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"}");
 			strcat(ping2, "]");
 			strcat(ping2, "}");
@@ -190,7 +190,7 @@ pkt1:
 		}
 	}
 
-	// Component 2 - Device 2 | Component: 1_OpEx-0_2_CMR-BBCKCDT2019_1 | Device: Heli_Camera_Connectivity_Time
+	// Component 2 - Device 2 | Component: 1_OpEx-0_2_CMR-BBCKCDT2019_1 | Device: H_Camera_Connectivity_Time
 	ping1 = system("ping -n 2 -w 20 -i 10 -a 192.168.0.3");
 	time(&actual_time);
 	data = localtime(&actual_time);
@@ -224,7 +224,7 @@ pkt1:
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateStatus\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#Faulty\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Status\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateDominion\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#Electrics\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Dominion\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStatePhenomenon\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#ElectricLoss\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Phenomenon\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
-			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#Heli_Camera_Connectivity_Time\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
+			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#H_Camera_Connectivity_Time\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#refersToComponent\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#1_OpEx-0_2_CMR-BBCKCDT2019_1\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Component\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"}");
 			strcat(ping2, "]");
 			strcat(ping2, "}");
@@ -270,7 +270,7 @@ pkt1:
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateStatus\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#Faulty\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Status\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateDominion\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#Electrics\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Dominion\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStatePhenomenon\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#ElectricLoss\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Phenomenon\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
-			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#Heli_Camera_Connectivity_Time\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
+			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#H_Camera_Connectivity_Time\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#refersToComponent\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#1_OpEx-0_2_CMR-BBCKCDT2019_1\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Component\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"}");
 			strcat(ping2, "]");
 			strcat(ping2, "}");
@@ -288,7 +288,7 @@ pkt1:
 		}
 	}
 
-	// Component 3 - Device 3 | Component: 1_OpEx-0_1_MNT-BBCKTSHBCDT2019_3 | Device: Heli_Monitor_Connectivity_Time
+	// Component 3 - Device 3 | Component: 1_OpEx-0_1_MNT-BBCKTSHBCDT2019_3 | Device: H_Monitor_Connectivity_Time
 	ping1 = system("ping -n 2 -w 20 -i 10 -a 192.168.0.5");
 	time(&actual_time);
 	data = localtime(&actual_time);
@@ -322,7 +322,7 @@ pkt1:
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateStatus\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#Faulty\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Status\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateDominion\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#Electrics\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Dominion\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStatePhenomenon\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#ElectricLoss\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Phenomenon\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
-			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#Heli_Monitor_Connectivity_Time\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
+			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#H_Monitor_Connectivity_Time\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#refersToComponent\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#1_OpEx-0_1_MNT-BBCKTSHBCDT2019_3\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Component\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"}");
 			strcat(ping2, "]");
 			strcat(ping2, "}");
@@ -368,7 +368,7 @@ pkt1:
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateStatus\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#Faulty\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Status\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateDominion\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#Electrics\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Dominion\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStatePhenomenon\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#ElectricLoss\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Phenomenon\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
-			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#Heli_Monitor_Connectivity_Time\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
+			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#H_Monitor_Connectivity_Time\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 			strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#refersToComponent\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#1_OpEx-0_1_MNT-BBCKTSHBCDT2019_3\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Component\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"}");
 			strcat(ping2, "]");
 			strcat(ping2, "}");
@@ -439,7 +439,7 @@ pkt4:
 	data = localtime(&actual_time);
 	strftime(hour, 80, "%y%m%d%H%M%S", data);
 	strftime(date, 80, "%Y-%m-%dT%H:%M:%S", data);
-	// Component 1 - Device 4 | Component: 1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_2 | Device: Heli_CMC_CPU_Usage
+	// Component 1 - Device 4 | Component: 1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_2 | Device: H_Client_Computer_CPU_Usage
 	try
 	{
 		// Device 4 - Usage in "watt" (UPG: To modify to show real watts)
@@ -463,7 +463,7 @@ pkt4:
 		strcat(ping2, "\",");
 		strcat(ping2, "\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://www.w3.org/2001/XMLSchema#dateTime\",\"ontType\": \"http://www.w3.org/2002/07/owl#DatatypeProperty\"},");
 		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateUnit\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#watt\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Unit\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
-		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#Heli_CMC_CPU_Usage\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
+		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#H_Client_Computer_CPU_Usage\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#refersToComponent\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_2\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Component\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"}");
 		strcat(ping2, "]");
 		strcat(ping2, "}");
@@ -479,7 +479,7 @@ pkt4:
 		count++;
 		// cerr << "Request failed, error: " << e.what() << endl;
 	}
-	// Component 2 - Device 6 | Component: 1_OpEx-0_2_RAM-BBCKTSHBRAMDT2019_2 | Device: Heli_CMC_RAM_Usage
+	// Component 2 - Device 6 | Component: 1_OpEx-0_2_RAM-BBCKTSHBRAMDT2019_2 | Device: H_Client_Computer_RAM_Usage
 	try
 	{
 		// Device 6 - Usage in "watt" (UPG: To modify to show real watts)
@@ -503,7 +503,7 @@ pkt4:
 		strcat(ping2, "\",");
 		strcat(ping2, "\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://www.w3.org/2001/XMLSchema#dateTime\",\"ontType\": \"http://www.w3.org/2002/07/owl#DatatypeProperty\"},");
 		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateUnit\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#watt\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Unit\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
-		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#Heli_CMC_RAM_Usage\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
+		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#H_Client_Computer_RAM_Usage\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#refersToComponent\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#1_OpEx-0_2_RAM-BBCKTSHBRAMDT2019_2\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Component\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"}");
 		strcat(ping2, "]");
 		strcat(ping2, "}");
@@ -519,7 +519,7 @@ pkt4:
 		count++;
 		// cerr << "Request failed, error: " << e.what() << endl;
 	}
-	// Component 1 - Device 5 | Component: 1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_2 | Device: Heli_CMC_CPU_Temperature
+	// Component 1 - Device 5 | Component: 1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_2 | Device: H_Client_Computer_CPU_Temperature
 	try
 	{
 		// Device 5 - Temperature in "degreeCelsius"
@@ -543,7 +543,7 @@ pkt4:
 		strcat(ping2, "\",");
 		strcat(ping2, "\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://www.w3.org/2001/XMLSchema#dateTime\",\"ontType\": \"http://www.w3.org/2002/07/owl#DatatypeProperty\"},");
 		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateUnit\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#kelvin\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Unit\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
-		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#Heli_CMC_CPU_Temperature\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
+		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#H_Client_Computer_CPU_Temperature\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#refersToComponent\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_2\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Component\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"}");
 		strcat(ping2, "]");
 		strcat(ping2, "}");
@@ -614,7 +614,7 @@ pkt6:
 	data = localtime(&actual_time);
 	strftime(hour, 80, "%y%m%d%H%M%S", data);
 	strftime(date, 80, "%Y-%m-%dT%H:%M:%S", data);
-	// Component 4 - Device 7 | Component: 1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_1 | Device: Heli_MMC_CPU_Usage
+	// Component 4 - Device 7 | Component: 1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_1 | Device: H_Main_Computer_CPU_Usage
 	try
 	{
 		// Device 7 - Usage in "watt" (UPG: To modify to show real watts)
@@ -638,7 +638,7 @@ pkt6:
 		strcat(ping2, "\",");
 		strcat(ping2, "\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://www.w3.org/2001/XMLSchema#dateTime\",\"ontType\": \"http://www.w3.org/2002/07/owl#DatatypeProperty\"},");
 		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateUnit\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#watt\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Unit\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
-		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#Heli_MMC_CPU_Usage\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
+		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#H_Main_Computer_CPU_Usage\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#refersToComponent\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_1\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Component\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"}");
 		strcat(ping2, "]");
 		strcat(ping2, "}");
@@ -654,7 +654,7 @@ pkt6:
 		count++;
 		//cerr << "Request failed, error: " << e.what() << endl;
 	}
-	// Component 5 - Device 9 | Component: 1_OpEx-0_2_RAM-BBCKTSHBRAMDT2019_1 | Device: Heli_MMC_RAM_Usage
+	// Component 5 - Device 9 | Component: 1_OpEx-0_2_RAM-BBCKTSHBRAMDT2019_1 | Device: H_Main_Computer_RAM_Usage
 	try
 	{
 		// Device 9 - Usage in "watt" (UPG: To modify to show real watts)
@@ -678,7 +678,7 @@ pkt6:
 		strcat(ping2, "\",");
 		strcat(ping2, "\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://www.w3.org/2001/XMLSchema#dateTime\",\"ontType\": \"http://www.w3.org/2002/07/owl#DatatypeProperty\"},");
 		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateUnit\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#watt\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Unit\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
-		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#Heli_MMC_RAM_Usage\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
+		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#H_Main_Computer_RAM_Usage\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#refersToComponent\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#1_OpEx-0_2_RAM-BBCKTSHBRAMDT2019_1\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Component\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"}");
 		strcat(ping2, "]");
 		strcat(ping2, "}");
@@ -694,7 +694,7 @@ pkt6:
 		count++;
 		//cerr << "Request failed, error: " << e.what() << endl;
 	}
-	// Component 4 - Device 8 | Component: 1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_1 | Device: Heli_MMC_CPU_Temperature
+	// Component 4 - Device 8 | Component: 1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_1 | Device: H_Main_Computer_CPU_Temperature
 	try
 	{
 		// Device 8 - Temperature in "degreeCelsius"
@@ -718,7 +718,7 @@ pkt6:
 		strcat(ping2, "\",");
 		strcat(ping2, "\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://www.w3.org/2001/XMLSchema#dateTime\",\"ontType\": \"http://www.w3.org/2002/07/owl#DatatypeProperty\"},");
 		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#hasStateUnit\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/diagont#kelvin\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/diagont#Unit\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
-		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#Heli_MMC_CPU_Temperature\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
+		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#measuredByDevice\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#H_Main_Computer_CPU_Temperature\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Device\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"},");
 		strcat(ping2, "{\"ontName\":\"http://138.250.108.1:3003/api/files/owl/diagont#refersToComponent\",\"ontValue\":\"http://138.250.108.1:3003/api/files/owl/orgont#1_OpEx-0_1_CPU-BBCKTSHBCPUDT2019_1\",\"ontDomain\":\"http://138.250.108.1:3003/api/files/owl/diagont#State\",\"ontRange\":\"http://138.250.108.1:3003/api/files/owl/orgont#Component\",\"ontType\": \"http://www.w3.org/2002/07/owl#ObjectProperty\"}");
 		strcat(ping2, "]");
 		strcat(ping2, "}");
